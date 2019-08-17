@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Easy Laundry</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="splash_textview">Manage Laundry Items\non the go</string>
+</resources>
