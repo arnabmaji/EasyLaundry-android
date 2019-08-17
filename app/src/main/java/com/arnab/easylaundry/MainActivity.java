@@ -10,11 +10,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if(getIntent().getIntExtra("IsSplashShown",0) == 0){
-            Intent i = new Intent(MainActivity.this,SplashActivity.class);
-            startActivity(i);
-            finish();
-        }
+        showSplashScreen();
         setContentView(R.layout.activity_main);
+
+
+    }
+
+    private void showSplashScreen() {
+            Intent i = new Intent(MainActivity.this, SplashActivity.class);
+            startActivity(i);
     }
 }

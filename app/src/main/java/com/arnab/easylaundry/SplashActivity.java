@@ -13,9 +13,6 @@ import android.widget.TextView;
 public class SplashActivity extends AppCompatActivity {
 
     public void getStarted(View view){
-        Intent i = new Intent(this,MainActivity.class);
-        i.putExtra("IsSplashShown",1);
-        startActivity(i);
         finish();
     }
 
