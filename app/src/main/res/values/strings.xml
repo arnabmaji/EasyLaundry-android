@@ -2,4 +2,44 @@
     <string name="app_name">Easy Laundry</string>
     <string name="title_activity_splash">SplashActivity</string>
     <string name="splash_textview">Manage Laundry Items\non the go</string>
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+    <string name="item_1">Bed Sheet</string>
+    <string name="item_2">Towel</string>
+    <string name="item_3">Pillow Cover</string>
+    <string name="item_4">Salwar</string>
+    <string name="item_5">Lower</string>
+    <string name="item_6">Nikkar</string>
+    <string name="item_7">School Pant</string>
+    <string name="item_8">Civil Pant</string>
+    <string name="item_9">Jeans</string>
+    <string name="item_10">Kurta</string>
+    <string name="item_11">T-Shirt</string>
+    <string name="item_12">School Shirt</string>
+    <string name="item_13">Civil Shirt</string>
+    <string name="item_14">Sweater</string>
+    <string name="item_15">Jacket</string>
+    <string name="item_16">Coat</string>
+    <string name="item_17">Blanket</string>
+    <string name="item_18">Scarves</string>
+    <string-array name="laundry_items">
+        <item>@string/item_1</item>
+        <item>@string/item_2</item>
+        <item>@string/item_3</item>
+        <item>@string/item_4</item>
+        <item>@string/item_5</item>
+        <item>@string/item_6</item>
+        <item>@string/item_7</item>
+        <item>@string/item_8</item>
+        <item>@string/item_9</item>
+        <item>@string/item_10</item>
+        <item>@string/item_11</item>
+        <item>@string/item_12</item>
+        <item>@string/item_13</item>
+        <item>@string/item_14</item>
+        <item>@string/item_15</item>
+        <item>@string/item_16</item>
+        <item>@string/item_17</item>
+        <item>@string/item_18</item>
+    </string-array>
 </resources>
