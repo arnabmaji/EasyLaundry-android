@@ -42,4 +42,9 @@
         <item>@string/item_17</item>
         <item>@string/item_18</item>
     </string-array>
+    <string name="count_reset">All counts set to 0</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_about">About</string>
+    <string name="nav_exit">Exit</string>
 </resources>

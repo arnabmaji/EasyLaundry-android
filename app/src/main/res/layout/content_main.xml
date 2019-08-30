@@ -12,11 +12,13 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="16"
         android:text="@string/item_17"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button17"
         app:layout_constraintStart_toEndOf="@+id/button15"
         app:layout_constraintTop_toBottomOf="@+id/button13" />
@@ -28,11 +30,13 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="15"
         android:text="@string/item_16"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button12" />
@@ -44,11 +48,13 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="17"
         android:text="@string/item_18"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button16"
         app:layout_constraintTop_toBottomOf="@+id/button14" />
@@ -60,11 +66,13 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="10"
         android:text="@string/item_11"
+        app:layout_constraintBottom_toTopOf="@+id/button13"
         app:layout_constraintEnd_toStartOf="@+id/button11"
         app:layout_constraintStart_toEndOf="@+id/button9"
         app:layout_constraintTop_toBottomOf="@+id/button7" />
@@ -76,11 +84,13 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="0"
         android:text="@string/item_1"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toStartOf="@+id/button1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -92,11 +102,13 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="1"
         android:text="@string/item_2"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintStart_toEndOf="@+id/button0"
         app:layout_constraintTop_toTopOf="parent" />
@@ -108,11 +120,13 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="2"
         android:text="@string/item_3"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button1"
         app:layout_constraintTop_toTopOf="parent" />
@@ -124,11 +138,13 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="6"
         android:text="@string/item_7"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
         app:layout_constraintEnd_toStartOf="@+id/button7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
@@ -140,11 +156,13 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="4"
         android:text="@string/item_5"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
         app:layout_constraintEnd_toStartOf="@+id/button5"
         app:layout_constraintStart_toEndOf="@id/button3"
         app:layout_constraintTop_toBottomOf="@+id/button1" />
@@ -156,11 +174,13 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="5"
         android:text="@string/item_6"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button4"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
@@ -172,11 +192,13 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="3"
         android:text="@string/item_4"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button0" />
@@ -188,11 +210,13 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="7"
         android:text="@string/item_8"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
         app:layout_constraintEnd_toStartOf="@+id/button8"
         app:layout_constraintStart_toEndOf="@+id/button6"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
@@ -204,11 +228,13 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="11"
         android:text="@string/item_12"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button10"
         app:layout_constraintTop_toBottomOf="@+id/button8" />
@@ -220,11 +246,13 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="9"
         android:text="@string/item_10"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
         app:layout_constraintEnd_toStartOf="@+id/button10"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button6" />
@@ -236,11 +264,13 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="13"
         android:text="@string/item_14"
+        app:layout_constraintBottom_toTopOf="@+id/button16"
         app:layout_constraintEnd_toStartOf="@+id/button14"
         app:layout_constraintStart_toEndOf="@id/button12"
         app:layout_constraintTop_toBottomOf="@+id/button10" />
@@ -252,11 +282,13 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="8"
         android:text="@string/item_9"
+        app:layout_constraintBottom_toTopOf="@+id/button11"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button7"
         app:layout_constraintTop_toBottomOf="@+id/button5" />
@@ -268,11 +300,13 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="14"
         android:text="@string/item_15"
+        app:layout_constraintBottom_toTopOf="@+id/button17"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button13"
         app:layout_constraintTop_toBottomOf="@+id/button11" />
@@ -284,11 +318,13 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/main_round_button"
         android:fontFamily="sans-serif-condensed-light"
-        android:onClick="onLaundryItemClicked"
+        
         android:tag="12"
         android:text="@string/item_13"
+        app:layout_constraintBottom_toTopOf="@+id/button15"
         app:layout_constraintEnd_toStartOf="@+id/button13"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button9" />
