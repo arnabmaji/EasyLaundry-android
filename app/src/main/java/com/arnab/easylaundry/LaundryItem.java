@@ -1,29 +1,29 @@
 package com.arnab.easylaundry;
 
-public class LaundryItem {
+import java.io.Serializable;
+
+public class LaundryItem implements Serializable {
     private String itemName;
     private int itemCount;
+    private final static long serialVersionUID = 1L;
 
-    public LaundryItem(){
+    LaundryItem(){
         itemCount = 0;
     }
 
-    public void setCount(int count){
-        itemCount = count;
-    }
-
-    public int getItemCount(){
+    int getItemCount(){
         return itemCount;
     }
-    public void increaseCountByOne(){
+
+    void increaseCountByOne(){
         itemCount++;
     }
 
-    public void decreaseCountByOne(){
+    void decreaseCountByOne(){
         itemCount--;
     }
 
-    public String getItemName(){
+    String getItemName(){
         return itemName;
     }
 

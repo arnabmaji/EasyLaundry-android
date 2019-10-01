@@ -13,9 +13,6 @@
                     android:icon="@drawable/ic_help"
                     android:title="@string/nav_help" />
                 <item
-                    android:icon="@drawable/ic_about_us"
-                    android:title="@string/nav_about" />
-                <item
                     android:id="@+id/app_exit"
                     android:icon="@drawable/ic_logout"
                     android:title="@string/nav_exit" />

@@ -1,5 +1,9 @@
 package com.arnab.easylaundry;
 
+import android.content.Context;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.drawable.ShapeDrawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,18 +20,21 @@ public class HomeFragment extends Fragment {
     
     private LaundryModel laundryModel;
     private Button[] buttons;
-    private View.OnClickListener onClickListener;
     private int lastUpdatedItemTag;
     private View view;
-    
+
+    HomeFragment(LaundryModel laundryModel){ //Getting current or last saved laundry models from Main Activity
+        this.laundryModel = laundryModel;
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.home_fragment,container,false);
-        laundryModel = new LaundryModel(getContext());
-        onClickListener = new View.OnClickListener() {
+        View.OnClickListener onClickListener = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                view.setBackgroundResource(R.drawable.main_round_button_clicked);
                 updateItemInfo(Integer.parseInt(view.getTag().toString()));
             }
         };
@@ -50,16 +57,15 @@ public class HomeFragment extends Fragment {
         buttons[15] = view.findViewById(R.id.button15);
         buttons[16] = view.findViewById(R.id.button16);
         buttons[17] = view.findViewById(R.id.button17);
-        for(Button button : buttons){ //sets click listeners for all buttons programmatically;
+        for(Button button : buttons) { //sets click listeners for all buttons programmatically;
             button.setOnClickListener(onClickListener);
         }
-        for(int i=0;i<LaundryModel.MAX_COUNT;i++){
+        for(int i=0;i<LaundryModel.MAX_COUNT;i++) {
             updateButtonText(i);
         }
-        
-        
         return view;
     }
+
 
     private void updateItemInfo(int tag){
         lastUpdatedItemTag = tag;
