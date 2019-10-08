@@ -64,4 +64,7 @@
     <string name="wp_social_media">Whatsapp</string>
     <string name="action_reset">Reset</string>
     <string name="save">Save</string>
+    <string name="history">History</string>
+    <string name="last_three_saves">Your Last three saves</string>
+    <string name="all_saved_toast_message">All Information has been saved!</string>
 </resources>

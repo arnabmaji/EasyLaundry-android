@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+<menu
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
@@ -9,6 +9,10 @@
                     android:icon="@drawable/ic_home_black_24dp"
                     android:title="@string/nav_home"/>
                 <item
+                    android:icon="@drawable/ic_save_black_24dp"
+                    android:id="@+id/history"
+                    android:title="@string/history"/>
+                <item
                     android:id="@+id/get_support"
                     android:icon="@drawable/ic_help"
                     android:title="@string/nav_help" />
@@ -16,6 +20,5 @@
                     android:id="@+id/app_exit"
                     android:icon="@drawable/ic_logout"
                     android:title="@string/nav_exit" />
-
         </group>
 </menu>

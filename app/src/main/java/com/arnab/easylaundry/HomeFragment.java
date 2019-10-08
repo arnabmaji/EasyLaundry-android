@@ -1,9 +1,4 @@
 package com.arnab.easylaundry;
-
-import android.content.Context;
-import android.graphics.Color;
-import android.graphics.Paint;
-import android.graphics.drawable.ShapeDrawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -75,7 +70,11 @@ public class HomeFragment extends Fragment {
         Snackbar.make(view,laundryItem.getItemName()+" added",Snackbar.LENGTH_LONG).setAction("Undo", new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                laundryModel.getLaundryItemByNumber(lastUpdatedItemTag).decreaseCountByOne();
+                LaundryItem lastClickedLaundryItem = laundryModel.getLaundryItemByNumber(lastUpdatedItemTag);
+                lastClickedLaundryItem.decreaseCountByOne();
+                if(lastClickedLaundryItem.getItemCount() == 0){ //Revert background color if its count becomes zero
+                    buttons[lastUpdatedItemTag].setBackgroundResource(R.drawable.main_round_button);
+                }
                 updateButtonText(lastUpdatedItemTag);
             }
         }).show();
@@ -83,6 +82,9 @@ public class HomeFragment extends Fragment {
 
     private void updateButtonText(int tag){
         LaundryItem laundryItem  = laundryModel.getLaundryItemByNumber(tag);
+        if(laundryItem.getItemCount() > 0){ //If a item has more than 0 count highlight it
+            buttons[tag].setBackgroundResource(R.drawable.main_round_button_clicked);
+        }
         String buttonText = laundryItem.getItemName() + "\n" + laundryItem.getItemCount();
         buttons[tag].setText(buttonText);
     }
